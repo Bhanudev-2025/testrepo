@@ -1,0 +1,17 @@
+################## tuples are immutable and stored in() 
+##### yo can perform indexing and count()
+
+tu =(100,200,300,100,55,110,56,200,300)
+print(tu,type(tu),id(tu),len(tu))
+print(tu.count(100))
+print(tu.index(55))
+#########   su = ()
+qu =10,20,"bhanu","wwee"
+print(qu,type(qu),id(qu),len(qu))
+###############################convert tuple into list
+list11 = list(qu)
+print(list11,type(list11),id(list11),len(list11))
+list11.append("king")
+print(list11,type(list11),id(list11),len(list11))
+ru =tuple(list11)
+print(ru,type(ru),id(ru),len(ru))
